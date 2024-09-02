@@ -1,15 +1,12 @@
 # My Advanced Blog
 
 ## Project Structure:
-The project is organized into the following directories and files:
+- The project is named "My Advanced Blog."
+- Contains a CSS directory with all.min.css (FontAwesome icons) and Stylesheet.css (custom styles).
+- Includes a JS directory with main.js (JavaScript functionality).
+- The main HTML file is index.html.
+- The project includes a README.md file.
 
--It contains a CSS directory:
-  all.min.css (for FontAwesome icons)
-  Stylesheet.css (for custom blog styles)
--A JS directory is included:
-  main.js (for JavaScript functionality)
--The main HTML file is index.html.
--There is also a README.md file with project information.
 
 ## How to Run The Project:
 You can simply open the index.html file in your browser by double-clicking on it.
@@ -26,3 +23,5 @@ You can simply open the index.html file in your browser by double-clicking on it
 ## Customization:
 -Colors: Custom palette via CSS variables.
 -Fonts: Google Fonts.
+
+
