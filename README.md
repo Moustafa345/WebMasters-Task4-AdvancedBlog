@@ -13,15 +13,15 @@ You can simply open the index.html file in your browser by double-clicking on it
 
 
 ## Features:
--Responsive Navbar.
--Blog Posts: Three sample posts.
--Sidebar: About, links, and recent posts.
--Footer: Subscription form.
--Back to Top Button: Smooth scroll functionality.
+- Fully Responsive.
+- Blog Posts: Three sample posts.
+- Sidebar: About, links, and recent posts.
+- Footer: Subscription form.
+- Back to Top Button: Smooth scroll functionality.
 
 
 ## Customization:
--Colors: Custom palette via CSS variables.
--Fonts: Google Fonts.
+- Colors: Custom palette via CSS variables.
+- Fonts: Google Fonts.
 
 
