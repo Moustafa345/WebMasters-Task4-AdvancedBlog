@@ -1,0 +1,210 @@
+
+/* Variables */
+:root {
+    --primary-color: #1a8a00;
+    --secondary-color: #95D2B3; 
+    --background-color: #F1F8E8; 
+    --text-color: #D8EFD3;
+    --light-color: #FFFFFF;
+    --dark-color: #55AD9B; 
+    --card-padding: 20px;
+    --text-light-color: #F8F9FA; 
+}
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}  
+
+body {
+    font-family: "PT Serif", serif;
+    background-color: var(--background-color);
+    /* color: var(--primary-color); */
+}
+
+/* Navbar Customization */
+.navbar {
+    background-color: var(--text-color);
+}
+
+.navbar-nav .nav-link {
+    color: var(--primary-color) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--dark-color) !important;
+}
+
+.navbar .navbar-brand {
+    color: var(--primary-color); 
+}
+
+.navbar-toggler {
+    border: solid 2px var(--primary-color);
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem var(--primary-color);
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Header Customization */
+header {
+    background-color: var(--text-color); 
+    color: var(--text-color);
+}
+
+header h1,
+header p {
+    color: var(--primary-color);
+} 
+
+/* Header Underline */
+header::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+}
+
+/* Card Customization */
+.card {
+    background-color: var(--light-color);
+    border: none;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: translateX(-8px);
+}
+
+.card .card-body {
+    padding: var(--card-padding) !important;
+}
+
+.card .card-title {
+    color: var(--primary-color);
+}
+
+.card .card-text {
+    color: var(--secondary-color);
+}
+
+.card .btn-primary {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+}
+
+.card .btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Sidebar Customization */
+
+aside .card-text,
+aside .list-unstyled a {
+    color: var(--secondary-color);
+}
+
+aside .list-unstyled a:hover {
+    color: var(--dark-color);
+}
+
+/* Footer Customization */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light-color);
+}
+
+/* Subscription Form */
+.subscribe-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (min-width: 600px) {
+    .subscribe-form .form-control {
+        width: 400px;
+    }
+    .subscribe-form .form-label {
+        margin-right: 200px;
+    }
+}
+
+.subscribe-form .btn-light {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--light-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-top: 17px;
+    height: 38px;
+}
+
+.subscribe-form .btn-light:hover {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+
+/* Back to Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    animation: up-down-slide 1.5s ease-in-out infinite;
+}
+
+/* Back to Top Button Animation */
+@keyframes up-down-slide {
+    0% {
+      transform: translateY(-3px);
+  }
+    100% {
+      transform: translateY(3px);
+  }
+  }
+  
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1a8a00;
+    border-radius: 10px;
+    border: 2px solid var(--background-color);
+}
+
