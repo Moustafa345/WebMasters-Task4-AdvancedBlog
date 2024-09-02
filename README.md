@@ -8,20 +8,24 @@
 - The project includes a README.md file.
 
 
-## How to Run The Project:
-You can simply open the index.html file in your browser by double-clicking on it.
-
-
 ## Features:
 - Fully Responsive.
 - Blog Posts: Three sample posts.
 - Sidebar: About, links, and recent posts.
 - Footer: Subscription form.
 - Back to Top Button: Smooth scroll functionality.
+- Responsive Navigation Menu: Toggle button for mobile devices.
 
 
 ## Customization:
 - Colors: Custom palette via CSS variables.
 - Fonts: Google Fonts.
+- Icons: FontAwesome.
+- Responsive Design: Media Queries for different screen sizes.
+
+
+
+## How to Run The Project:
+You can simply open the index.html file in your browser by double-clicking on it.
 
 
